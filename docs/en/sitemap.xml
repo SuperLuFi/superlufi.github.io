@@ -223,7 +223,19 @@
   </url>
   
   <url>
+    <loc>https://SuperLuFi.github.io/home/elements/</loc>
+  </url>
+  
+  <url>
     <loc>https://SuperLuFi.github.io/home/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>https://SuperLuFi.github.io/home/sederhana/</loc>
+  </url>
+  
+  <url>
+    <loc>https://SuperLuFi.github.io/home/srac-debian/</loc>
   </url>
   
 </urlset>
