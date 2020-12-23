@@ -3,23 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://SuperLuFi.github.io/home/post/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <loc>http://SuperLuFi.github.io/home/about/</loc>
+    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://SuperLuFi.github.io/home/post/2017/01/01/test/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <loc>http://SuperLuFi.github.io/home/post/hello/</loc>
+    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://SuperLuFi.github.io/home/post/</loc>
+    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://SuperLuFi.github.io/home/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://SuperLuFi.github.io/home/post/2016/01/01/test/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <loc>http://SuperLuFi.github.io/home/showcase/</loc>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -2,32 +2,37 @@ baseURL = "http://SuperLuFi.github.io/home"
 languageCode = "en-us"
 title = "Website Fisika Nuklir UIN SGD Bandung"
 publishdir = "docs"
-theme = "air"
+theme = "terminal"
 paginate = 5
-DisqusShortname = ""
-Copyright = "All rights reserved - 2016"
-canonifyurls = true
-
-[author]
-  name = "syui"
-
-[permalinks]
-    post = "/post/:year/:month/:day/:slug"
 
 [params]
-  description = "this is my description"
-  cover = "images/user.jpg"
-  author = "syui"
-  authorlocation = ""
-  authorwebsite = "https://syui.cf/hugo-theme-air"
-  bio= "my bio"
-  logo = "images/user.png"
-  googleAnalyticsUserID = ""
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = ""
-  githubName = "syui"
-  twitterName = ""
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = false
-  mainSections = ["post"]
+  contentTypeName = "post"
+  themeColor = "orange"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "Terminal"
+    subtitle = "A simple, retro theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Terminal"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
 
