@@ -1,5 +1,3 @@
-baseURL = "http://SuperLuFi.github.io/home"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Fisnuk UIN Sunan Gunung Djati Bandung"
-theme = "dimension"
-publishdir = "docs"
+title = "My New Hugo Site"
