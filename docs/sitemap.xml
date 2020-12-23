@@ -1,45 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>./</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>en/sitemap.xml</loc>
+    
+      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>./post/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>pt/sitemap.xml</loc>
+    
+  </sitemap>
   
-  <url>
-    <loc>./post/2017/01/01/test/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>./post/2016/01/01/test/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>./elements/</loc>
-  </url>
-  
-  <url>
-    <loc>./categories/</loc>
-  </url>
-  
-  <url>
-    <loc>./sederhana/</loc>
-  </url>
-  
-  <url>
-    <loc>./srac-debian/</loc>
-  </url>
-  
-  <url>
-    <loc>./tags/</loc>
-  </url>
-  
-</urlset>
+</sitemapindex>
