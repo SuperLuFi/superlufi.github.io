@@ -1,0 +1,6 @@
+relativeURLs = true
+baseURL = "."
+languageCode = "en-us"
+title = "Fisika Nuklir UIN SGD Bandung"
+publishdir = "docs"
+theme = "dimension"
