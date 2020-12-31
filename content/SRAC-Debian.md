@@ -8,6 +8,7 @@ title:  SRAC Installer
 - [SRAC](#srac)
 - [Requirement](#requirement)
 - [Download](#download)
+- [Install](#install)
 
 ## SRAC
 
@@ -37,30 +38,37 @@ Berikut adalah OS Debian dan turunannya yang dapat menggunakan SRAC ini.
 7. Deepin
 8. Kali Linux
 9. KDE Neon
-10. -
-[dll](https://distrowatch.com/search.php?basedon=Debian) 
+10. [dll](https://distrowatch.com/search.php?basedon=Debian) 
 
 ## Download
 
-### Debian Base Linux x32
+Kunjungi GitHub Repositori SRAC Installer - [github.com/SuperLuFi/SRAC-Installer](https://github.com/SuperLuFi/SRAC-Installer)
+
+Kemudian, klik Releases pada bagian kanan laman. Download **SRACx32_Debian.Ubuntu.run** atau **SRACx64_Debian.Ubuntu.run** sesuai dengan arsitektur OS anda.
+Bila anda tidak mengetahuinya, silahkan eksekusi perintah ini pada terminal anda.
 
 ```bash
-# This is a bash command
-cd dir && echo $PWD;
-
-# Return
-exit 0;
+sudo dpkg --print-architecture
 ```
 
-### Debian Base Linux x64
+Bila muncul **i386** berarti sistem anda 32 dan jika **amd64** maka sistem anda 64.
+
+## Install
+
+Setelah anda berhasil mendownload file installer sesuai sistem anda, langkah selanjutnya adalah memindahkan file tadi pada home folder kalian. Atau anda bisa langsung mengeksekusi perintah berikut jika terminal anda sudah memasuki direktori tempat anda mengunduh file.run.
 
 ```bash
-# This is a bash command
-cd dir && echo $PWD;
+chmod +x *_DebianUbuntu.run #Meminta izin akses untuk semua file dengan ekstensi _DebianUbuntu.run
+./*_DebianUbuntu.run #Menjalankan file
 
-# Return
-exit 0;
 ```
+
+Setelah itu pilih versi. Tersedia 2 versi dari setiap installer. Yaitu versi 2002 dan 2007. Pilih, dan lanjutkan. Bila ada kendala, hubungi kontak saya pada bagian bawah laman ini.
+
+**Catatan**.
+Installer ini membutuhkan koneksi internet untuk mengunduh aplikasi yang diperlukan untuk menjalankan SRAC.
+SRAC yang terinstall akan diletakan pada folder home anda.
+Pastikan setiap anda menginstall SRAC dengan installer ini, tidak ada folder SRAC dan Librarinya pada folder home.
 
 Semoga berhasil.
 Instalasi ini dibuat oleh Syaiful Bahri Al Haq (1147030049)  
